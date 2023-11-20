@@ -1,5 +1,5 @@
 *
 !public/
-!fonts/*
-!images/*
+!fonts/
+!images/
 !.gitignore
