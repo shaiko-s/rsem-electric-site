@@ -1,6 +1,12 @@
 <x-app-layout>
     <div class="_container">
-        <h1>Hello world!</h1>
+        <x-slot name="header">
+            @include('layouts.header')
+        </x-slot>
+
+        <h1>
+            Электромонтажные работы
+        </h1>
 
     </div>
 </x-app-layout>
