@@ -8,5 +8,9 @@
             Электромонтажные работы
         </h1>
 
+        <x-slot name="footer">
+            @include('layouts.footer')
+        </x-slot>
+
     </div>
 </x-app-layout>
