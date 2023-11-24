@@ -1,5 +1,5 @@
 <div class="footer-menu">
-    <div class="footer-menu__wrapper">
+    <div class="footer-menu__wrapper mx-auto px-4 sm:px-6 lg:px-8">
         <div class="footer-menu__company">
             <x-application-logo />
             <p>Электромонтажные<br> работы полного цикла</p>
@@ -65,7 +65,7 @@
     </div>
 </div>
 <div class="footer-copyright">
-    <div class="footer-copyright__wrapper">
+    <div class="footer-copyright__wrapper mx-auto px-4 sm:px-6 lg:px-8">
         <span>&copy; 2023 Рем Строй Энерго Монтаж</span>
         <a href="#">Политика конфиденциальности</a>
         <a href="#">Карта сайта</a>
