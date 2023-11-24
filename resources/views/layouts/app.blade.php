@@ -37,6 +37,15 @@
             <main>
                 {{ $slot }}
             </main>
+
+            <!-- Page Footer -->
+            @if (isset($footer))
+                <footer class="footer">
+                    <div class="footer__wrapper">
+                        {{ $footer }}
+                    </div>
+                </header>
+            @endif
         </div>
     </body>
 </html>
