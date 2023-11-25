@@ -21,3 +21,75 @@
     .white-text
         max-width: 50%
         margin-bottom: 92px
+
+.electro-info
+    max-width: $max-width
+    background-color: #fff
+    padding: 55px 0
+
+    &__top
+        display: flex
+        position: relative
+
+    &__content
+        width: calc(50% - 30px)
+        margin-right: 60px
+
+    &__title
+        margin-bottom: 41px
+
+    &__text
+        margin-bottom: 41px
+
+    &__button
+        margin-bottom: 53px
+
+    &__energy
+        width: 636px
+        height: 469px
+        background-color: #f5ab66
+        width: calc(50% - 30px)
+        position: absolute
+        right: 0
+        top: -96px
+        
+        
+    &__stats
+        display: flex
+
+    &__cards
+        display: grid
+        border: 5px solid #d1e231
+        grid-template-columns: repeat(3, 1fr)
+        grid-template-rows: repeat(4, 274px)
+        row-gap: 26px
+        column-gap: 22px
+
+.stat
+    border-radius: 20px
+    background: #F9F9F9
+    width: 256px
+    height: 178px
+    flex-shrink: 0
+    margin-bottom: 50px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    &:not(:last-child)
+        margin-right: 29px
+        
+
+    &__title
+        color: #313FC2
+        text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15)
+        font-size: 64px
+        font-weight: 700
+        line-height: normal
+
+.card
+    border: 5px solid #d1e231
+
+    &_column-span-2
+        grid-column: span 2
