@@ -1,7 +1,8 @@
 @props(['title',
-        'id'])
+        'id',
+        'class'])
 
-    <button class="btn-white" id="{{ $id }}">
+    <button class="btn-white {{ $class }}" id="{{ $id }}">
         <p>
             {{ $title }}
         </p>
