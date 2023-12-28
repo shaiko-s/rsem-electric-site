@@ -104,33 +104,8 @@
                 </div>
             </div>
         </div>
-        <div class="electro-project">
-            <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
-                <div>
-                    <div class="electro-project__top">
-                        <h2 class="electro-project__title white-title title_paddings">
-                            Реальзуйте свой проект<br>
-                            вместе с РСЭМ
-                        </h2>
-                        <x-buttons.btn-blue title="К проектам" id="btn-to-projects" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="electro-responsability">
-            <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="electro-responsability__info">
-                    <div class="electro-responsability__content">
-                        <h3 class="electro-responsability__title title">
-                            Корпоративная ответственность
-                        </h3>
-                        <p class="electro-responsability__text black-text">
-                            Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        <x-buttons.btn-blue title="К проектам" id="btn-to-projects" />
         <x-buttons.btn-blue title="Связаться с нами" id="btn-contact-us" />
         <x-buttons.btn-blue title="Консультация" id="btn-consultation-blue" />
 
