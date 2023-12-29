@@ -11,9 +11,9 @@
                     работы
                 </h1>
 
-                <h2>
+                <h3>
                     на коммерческих объектах
-                </h2>
+                </h3>
 
                 <p class="white-text">
                     Сборка и дальнейший монтаж электрощита – ответственные операции. От качества сборки данного элемента зависит равномерное и стабильное распределение электрической энергии.
@@ -137,8 +137,15 @@
                 </div>
             </div>
         </div>
+        <div class="electro-project">
+            <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
+                <h2>
+                    Реализуйте свой проект вместе с РСЭМ
+                </h2>
+                <x-buttons.btn-blue title="К проектам" id="btn-to-projects" />
+            </div>
+        </div>
 
-        <x-buttons.btn-blue title="К проектам" id="btn-to-projects" />
         <x-buttons.btn-blue title="Связаться с нами" id="btn-contact-us" />
         <x-buttons.btn-blue title="Консультация" id="btn-consultation-blue" />
 
