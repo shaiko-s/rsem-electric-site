@@ -52,8 +52,8 @@
         position: absolute
         right: 0
         top: -100px
-        
-        
+
+
     &__stats
         display: flex
 
@@ -79,7 +79,7 @@
 
     &:not(:last-child)
         margin-right: 29px
-        
+
 
     &__title
         color: #313FC2
@@ -133,7 +133,7 @@
         &--up
             top: 40px
             left: 25px
-    
+
     &__text
         color: #FFF
         text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15)
@@ -166,27 +166,36 @@
         padding-bottom: 46px
 
 .corporate-responsibility
-    height: 674px
-    background: url('images/electro-responsability.jpg') no-repeat right
+    min-height: 674px
     background-color: #fff
 
     &__content
-        width: 650px
-        padding-right: 28px
+        float: left
+        max-width: 50%
 
-        h3
-            font-style: normal
-            color: #0d0d0d
-            font-size: 60px
-            font-weight: 700
-            line-height: normal
-            padding-top: 58px
-            padding-bottom: 37px
+    &__header
+        font-style: normal
+        color: #0d0d0d
+        font-size: 60px
+        font-weight: 700
+        line-height: normal
+        padding-top: 58px
+        padding-bottom: 37px
 
-        p
-            font-weight: 400
-            color: #3d3d3d
-            font-size: 20px
-            font-style: normal
-            line-height: 30px
-            margin-bottom: 87px
+    &__text
+        font-weight: 400
+        color: #3d3d3d
+        font-size: 20px
+        font-style: normal
+        line-height: 30px
+        margin-bottom: 87px
+        text-align: justify
+
+    &__image
+        float: right
+        object-fit: fit
+
+    &::after
+        content: ""
+        display: none
+        clear: both
