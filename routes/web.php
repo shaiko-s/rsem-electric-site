@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('pages/main');
 });
 
+Route::get('/about', function () {
+    return view('pages/about-company');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
