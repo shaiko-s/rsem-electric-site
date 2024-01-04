@@ -3,14 +3,13 @@
         <x-slot name="header">
             @include('layouts.header')
         </x-slot>
-        <div class="about-top">
+        <div class="about top">
             <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
 
                 <div class="bread-crumbs">
                     <span class="bread-crumbs__text">Главная</span>
                     <span class="bread-crumbs__sign">></span>
                     <span class="bread-crumbs__text">О компании</span>
-
                 </div>
 
                 <h1 class="about-top__title">
