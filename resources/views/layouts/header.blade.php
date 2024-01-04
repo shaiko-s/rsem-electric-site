@@ -12,7 +12,7 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden header-nav__menu space-x-8 xl:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                    <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
                         {{ __('О компании') }}
                     </x-nav-link>
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
