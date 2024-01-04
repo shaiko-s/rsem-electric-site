@@ -4,7 +4,7 @@
             @include('layouts.header')
         </x-slot>
 
-        <div class="main-top">
+        <div class="main top">
             <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
                 <h1>
                     Электромонтажные<br>
@@ -161,8 +161,7 @@
             </div>
         </div>
 
-        <!-- <x-buttons.btn-blue title="Связаться с нами" id="btn-contact-us" />
-        <x-buttons.btn-blue title="Консультация" id="btn-consultation-blue" /> -->
+        <!-- <x-buttons.btn-blue title="Консультация" id="btn-consultation-blue" /> -->
 
 
         <x-slot name="footer">
