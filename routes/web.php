@@ -19,8 +19,8 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('pages/about-company');
-});
+    return view('pages/about');
+})->name('about');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
