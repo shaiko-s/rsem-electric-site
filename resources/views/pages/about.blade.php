@@ -5,6 +5,14 @@
         </x-slot>
         <div class="about-top">
             <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
+
+                <div class="bread-crumbs">
+                    <span class="bread-crumbs__text">Главная</span>
+                    <span class="bread-crumbs__sign">></span>
+                    <span class="bread-crumbs__text">О компании</span>
+
+                </div>
+
                 <h1 class="about-top__title">
                     О Компании
                 </h1>
@@ -14,7 +22,7 @@
                 </p>
             </div>
         </div>
-        
+
         <div class="electro-project">
             <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
                 <h2>
