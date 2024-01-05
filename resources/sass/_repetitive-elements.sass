@@ -76,25 +76,30 @@
         line-height: normal
 
 .realized-projects
-    background: #1F30D8
-    color: #FFF
 
-    &__title
-        text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15)
-        font-size: 36px
-        font-style: normal
-        font-weight: 700
-        line-height: 30px /* 83.333% */
+    .realized-projects__header
+        background: #1F30D8
+        color: #FFF
 
-    &__text
-        text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15)
-        font-size: 20px
-        font-style: normal
-        font-weight: 400
-        line-height: 30px /* 150% */
+        &__title
+            text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15)
+            font-size: 36px
+            font-style: normal
+            font-weight: 700
+            line-height: 30px /* 83.333% */
+            margin-bottom: 45px
+
+        &__text
+            text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15)
+            font-size: 20px
+            font-style: normal
+            font-weight: 400
+            line-height: 30px /* 150% */
 
 .talk-to-expert
     color: #FFF
+    height: 701px
+    padding-top: 83px
 
     &__title
         text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15)
@@ -104,8 +109,23 @@
         line-height: normal
 
     &__text
+        max-width: 605px
         text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15)
         font-size: 20px
         font-style: normal
         font-weight: 400
         line-height: 30px /* 150% */
+        margin-top: 27px
+        margin-bottom: 57px
+
+.clients
+    background-color: #fff
+
+    &__title
+        padding-top: 58px
+
+    &__logos
+        padding-top: 134px
+        display: flex
+        justify-content: space-between
+        padding-bottom: 107px
