@@ -47,21 +47,32 @@
                         <p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.</p>
                     </div>
                 </div>
-                <h2>
-                    Реализованные<br>
-                    проекты
-                </h2>
             </div>
         </div>
 
         <div class="realized-projects">
             <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
-                <h3 class="realized-projects__title">
-                    Название проектов
-                </h3>
-                <p class="realized-projects__text">
-                    Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.
-                </p>
+                <h2>
+                    Реализованные<br>
+                    проекты
+                </h2>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">Item 1</div>
+
+                <div class="realized-projects__header">
+                    <h3 class="realized-projects__title">
+                        Название проектов
+                    </h3>
+                    <p class="realized-projects__text">
+                        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.
+                    </p>
+                </div>
+
+                <div class="grid-item">Item 3</div>
+                <div class="grid-item">Item 4</div>
+                <div class="grid-item">Item 5</div>
+                <div class="grid-item">Item 6</div>
             </div>
         </div>
 
@@ -77,13 +88,13 @@
             </div>
         </div>
 
-        <div class="areas-info">
+        <div class="clients">
             <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
-                <h2>
+                <h2 class="clients__title">
                     Среди наших<br>
                     клиентов
                 </h2>
-                <div class="clients">
+                <div class="clients__logos">
                     <img src="/images/sber.svg" alt="">
                     <img src="/images/sber.svg" alt="">
                     <img src="/images/sber.svg" alt="">

@@ -38,3 +38,15 @@
 
     .clients
         display: flex
+
+.grid-container
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 422px 422px
+    border: 1px solid #000
+
+    & > * // Selects all direct children of the grid container
+        border: 1px solid #000 // Sets a 1px solid black border
+
+    & .realized-projects
+        padding: 75px 66px
