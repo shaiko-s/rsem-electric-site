@@ -39,14 +39,58 @@
     .clients
         display: flex
 
-.grid-container
-    display: grid
-    grid-template-columns: 1fr 1fr 1fr
-    grid-template-rows: 422px 422px
-    border: 1px solid #000
+.grid
+    background-color: #fff
 
-    & > * // Selects all direct children of the grid container
-        border: 1px solid #000 // Sets a 1px solid black border
+    &__container
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        grid-template-rows: 422px 422px
 
-    & .realized-projects
+        & .realized-projects
+            padding: 75px 66px
+
+    &__item-1
+        background-image: url('images/areas-project1.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+
+    &__item-2
+        background-image: url('images/areas-project2.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+
+    &__item-3
+        background-image: url('images/areas-project3.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+
+    &__item-4
+        background-image: url('images/areas-project4.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+
+    &__item-5
+        background-image: url('images/areas-project5.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+
+    &__header
+        background: #1F30D8
+        color: #FFF
         padding: 75px 66px
+
+    &__title
+        text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15)
+        font-size: 36px
+        font-style: normal
+        font-weight: 700
+        line-height: 30px /* 83.333% */
+        margin-bottom: 45px
+
+    &__text
+        text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15)
+        font-size: 20px
+        font-style: normal
+        font-weight: 400
+        line-height: 30px /* 150% */

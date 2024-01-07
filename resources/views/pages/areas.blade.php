@@ -57,22 +57,22 @@
                     проекты
                 </h2>
             </div>
-            <div class="grid-container">
-                <div class="grid-item">Item 1</div>
+            <div class="grid__container">
+                <div class="grid__item-1">Item 1</div>
 
-                <div class="realized-projects__header">
-                    <h3 class="realized-projects__title">
+                <div class="grid__header">
+                    <h3 class="grid__title">
                         Название проектов
                     </h3>
-                    <p class="realized-projects__text">
+                    <p class="grid__text">
                         Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.
                     </p>
                 </div>
 
-                <div class="grid-item">Item 3</div>
-                <div class="grid-item">Item 4</div>
-                <div class="grid-item">Item 5</div>
-                <div class="grid-item">Item 6</div>
+                <div class="grid__item-2">Item 3</div>
+                <div class="grid__item-3">Item 4</div>
+                <div class="grid__item-4">Item 5</div>
+                <div class="grid__item-5">Item 6</div>
             </div>
         </div>
 
