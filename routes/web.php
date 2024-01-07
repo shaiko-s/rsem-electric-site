@@ -26,6 +26,10 @@ Route::get('/areas', function () {
     return view('pages/areas');
 })->name('areas');
 
+Route::get('/contacts', function () {
+    return view('pages/contacts');
+})->name('contacts');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
