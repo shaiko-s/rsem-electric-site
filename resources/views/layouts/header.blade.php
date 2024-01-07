@@ -5,7 +5,7 @@
             {{-- <div class="flex"> --}}
                 <!-- Logo -->
                 <div class="header-nav__logo shrink-0">
-                    <a href="{{ url('/') }}">
+                    <a href="{{ url('/') }}" class="{{ request()->is('/') ? 'pointer-events-none' : '' }}">
                         <x-application-logo class="block h-9 w-auto fill-current text-gray-800 dark:text-gray-200" />
                     </a>
                 </div>
