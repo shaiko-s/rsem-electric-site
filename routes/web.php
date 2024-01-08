@@ -22,9 +22,21 @@ Route::get('/about', function () {
     return view('pages/about');
 })->name('about');
 
+Route::get('/services', function () {
+    return view('pages/services');
+})->name('services');
+
 Route::get('/areas', function () {
     return view('pages/areas');
 })->name('areas');
+
+Route::get('/solutions', function () {
+    return view('pages/solutions');
+})->name('solutions');
+
+Route::get('/projects', function () {
+    return view('pages/projects');
+})->name('projects');
 
 Route::get('/contacts', function () {
     return view('pages/contacts');

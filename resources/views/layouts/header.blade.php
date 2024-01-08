@@ -15,16 +15,16 @@
                     <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
                         {{ __('О компании') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                    <x-nav-link :href="route('services')" :active="request()->routeIs('services')">
                         {{ __('Услуги') }}
                     </x-nav-link>
                     <x-nav-link :href="route('areas')" :active="request()->routeIs('areas')">
                         {{ __('Направления') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                    <x-nav-link :href="route('solutions')" :active="request()->routeIs('solutions')">
                         {{ __('Готовые решения') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                    <x-nav-link :href="route('projects')" :active="request()->routeIs('projects')">
                         {{ __('Проекты') }}
                     </x-nav-link>
                     <x-nav-link :href="route('contacts')" :active="request()->routeIs('contacts')">
