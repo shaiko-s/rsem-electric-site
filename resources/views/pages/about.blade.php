@@ -21,13 +21,43 @@
                 </p>
             </div>
         </div>
-
+        <div class="about-info-top">
+            <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
+            </div>
+        </div>
         <div class="electro-project">
             <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
                 <h2>
                     Реализуйте свой проект вместе с РСЭМ
                 </h2>
                 <x-buttons.btn-blue title="К проектам" id="btn-to-projects" />
+            </div>
+        </div>
+        <div class="about-info-bottom">
+            <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="certificates">
+                    <h3 class="certificates__title">Сертификаты и лицензии</h3>
+                    <div class="certificates__images">
+                        <img src="images/certificate.jpg" alt="certificate">
+                        <img src="images/certificate.jpg" alt="certificate">
+                        <img src="images/certificate.jpg" alt="certificate">
+                        <img src="images/certificate.jpg" alt="certificate">
+                        <img src="images/certificate.jpg" alt="certificate">
+                        <img src="images/certificate.jpg" alt="certificate">
+                    </div>
+                </div>
+                <div class="clients">
+                    <h3 class="clients__title">
+                        Среди наших клиентов
+                    </h3>
+                    <div class="clients__images">
+                        <img src="images/client.jpg" alt="Client">
+                        <img src="images/client.jpg" alt="Client">
+                        <img src="images/client.jpg" alt="Client">
+                        <img src="images/client.jpg" alt="Client">
+                        <img src="images/client.jpg" alt="Client">
+                    </div>
+                </div>
             </div>
         </div>
         <x-slot name="footer">
