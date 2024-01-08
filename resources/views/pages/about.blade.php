@@ -51,11 +51,13 @@
                         Среди наших клиентов
                     </h3>
                     <div class="clients__images">
+                        <img src="images/arrow-2.svg" alt="arrow-left">
                         <img src="images/client.jpg" alt="Client">
                         <img src="images/client.jpg" alt="Client">
                         <img src="images/client.jpg" alt="Client">
                         <img src="images/client.jpg" alt="Client">
                         <img src="images/client.jpg" alt="Client">
+                        <img src="images/arrow-1.svg" alt="arrow-right">
                     </div>
                 </div>
             </div>
