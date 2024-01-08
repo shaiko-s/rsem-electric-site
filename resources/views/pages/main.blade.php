@@ -6,6 +6,11 @@
 
         <div class="main top">
             <div class="content-wrapper mx-auto px-4 sm:px-6 lg:px-8">
+
+                <div class="bread-crumbs">
+                    <span class="bread-crumbs__text">Главная</span>
+                </div>
+
                 <h1>
                     Электромонтажные<br>
                     работы
